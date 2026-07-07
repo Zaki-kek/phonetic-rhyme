@@ -15,5 +15,18 @@ venv/
 .ruff_cache/
 .mypy_cache/
 
-# Environment
+# Environment & secrets
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+.jwt_secret
+secrets/
+.cloudflared/
+
+# Local data / sessions
+*.db
+*.sqlite
+*.sqlite3
+*.session
