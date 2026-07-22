@@ -1,5 +1,7 @@
 # phonetic-rhyme
 
+[![CI](https://github.com/Zaki-kek/phonetic-rhyme/actions/workflows/ci.yml/badge.svg)](https://github.com/Zaki-kek/phonetic-rhyme/actions/workflows/ci.yml)
+
 **A pure-Python Russian phonetic rhyme engine - detect words that _sound_ alike, not just spelled alike.**
 
 `рад` and `брат` do not share a single letter of their endings on paper, yet they rhyme perfectly
